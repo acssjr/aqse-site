@@ -1,0 +1,12 @@
+/* Prices are integer cents. Null is an explicit unpublished price, never zero. */
+window.AQSE_SHOP = {
+  checkoutMode: "integrated",
+  whatsappNumber: null,
+  products: [
+    { id: "caixa-p", name: "Caixa de memórias", variant: "P", family: "caixas", price: null, image: "assets/img/hero-cartas-fotos.webp", alt: "Caixa aberta com cartas, fotos e flores secas", description: "Um jeito delicado de reunir palavras, fotografias e pequenas lembranças em um só presente.", feeling: "Para dizer o que importa.", options: ["Cartas e fotografias", "Pequenas lembranças", "Quero ajuda para escolher"] },
+    { id: "caixa-m", name: "Caixa de memórias", variant: "M", family: "caixas", price: null, image: "assets/img/preparo-presente.webp", alt: "Mãos preparando uma caixa com uma carta e fotografias", description: "Uma caixa para contar uma história em vários capítulos: nas palavras, nas fotos e nos objetos que fazem lembrar.", feeling: "Uma história, muitos capítulos.", options: ["Cartas e fotografias", "Fotos e objetos afetivos", "Quero ajuda para escolher"] },
+    { id: "caixa-g", name: "Caixa de memórias", variant: "G", family: "caixas", price: null, image: "assets/img/caixas-e-estojos.png", alt: "Referência da coleção de caixas e estojos da marca", description: "Para pensar em uma composição de memórias com a cara de quem vai receber. Escolha o que gostaria de reunir e conte a sua ideia.", feeling: "Para guardar uma história inteira.", options: ["Fotos e objetos afetivos", "Com uma miniatura", "Quero ajuda para escolher"] },
+    { id: "estojo-p", name: "Estojo de lembranças", variant: "P", family: "estojos", price: null, image: "assets/img/estojo-lembrancas.webp", alt: "Estojo estampado aberto com cartas, fotos e uma pequena chave", description: "Um estojo para guardar e levar por perto cartas, fotografias e pequenos objetos que têm significado.", feeling: "Afeto para levar junto.", options: ["Cartas e fotografias", "Pequenos objetos", "Quero ajuda para escolher"] },
+    { id: "estojo-m", name: "Estojo de lembranças", variant: "M", family: "estojos", price: null, image: "assets/img/estojo-lembrancas.webp", alt: "Detalhe de cartas com fita e fotografias dentro de um estojo", description: "Lembranças reunidas em um estojo estampado com a identidade da marca. Um presente para acompanhar a pessoa em novas histórias.", feeling: "As lembranças vão com você.", options: ["Cartas e fotografias", "Fotos e objetos afetivos", "Quero ajuda para escolher"] }
+  ]
+};
